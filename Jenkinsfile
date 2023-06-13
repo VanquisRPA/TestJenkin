@@ -51,7 +51,7 @@ pipeline {
               outputPath: "Output\\${env.BUILD_NUMBER}",
               outputType: 'Tests',
                      projectJsonPath: "project.json",
-                     version: [$class: 'ManualVersionEntry', version: "${MAJOR}.${MINOR}.9"],
+                     version: [$class: 'ManualVersionEntry', version: "${MAJOR}.${MINOR}.10"],
                      useOrchestrator: false,
                      traceLevel: 'Error'
 )
